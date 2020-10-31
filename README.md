@@ -68,6 +68,31 @@ Following this you have two ways of running this app:
 - Using the Docker container provided and overwriting the global configuration file
 
 ## Installation
+### Installation on macOS
+
+```
+git clone https://github.com/credija/opa
+```
+
+```
+sudo npm install --unsafe-perm -g yarn
+```
+
+```
+npm install --registry=https://registry.npm.taobao.org
+```
+
+```
+yarn add node-sass
+```
+
+```
+yarn add cool-emoji-picker
+```
+
+```
+yarn build && yarn start
+```
 
 ### NodeJS (From Source)
 
